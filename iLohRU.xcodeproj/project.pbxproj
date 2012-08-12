@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iLohRUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iLohRUAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* iLohRUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iLohRUViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* iLohRUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iLohRUViewController.m */; };
+		52055D1511F9FF6000A1DA90 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 52055D0A11F9FF6000A1DA90 /* NSObject+SBJSON.m */; };
+		52055D1611F9FF6000A1DA90 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 52055D0C11F9FF6000A1DA90 /* NSString+SBJSON.m */; };
+		52055D1711F9FF6000A1DA90 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 52055D0E11F9FF6000A1DA90 /* SBJSON.m */; };
+		52055D1811F9FF6000A1DA90 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 52055D1011F9FF6000A1DA90 /* SBJsonBase.m */; };
+		52055D1911F9FF6000A1DA90 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52055D1211F9FF6000A1DA90 /* SBJsonParser.m */; };
+		52055D1A11F9FF6000A1DA90 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 52055D1411F9FF6000A1DA90 /* SBJsonWriter.m */; };
+		52055D6F11FA056000A1DA90 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52055D6E11FA056000A1DA90 /* CFNetwork.framework */; };
+		52055D7111FA056000A1DA90 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52055D7011FA056000A1DA90 /* MobileCoreServices.framework */; };
+		52055D7311FA056000A1DA90 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52055D7211FA056000A1DA90 /* SystemConfiguration.framework */; };
+		52055D7511FA056000A1DA90 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52055D7411FA056000A1DA90 /* libz.1.2.3.dylib */; };
+		5209972B11FAEDCC00E85523 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5209972A11FAEDCC00E85523 /* icon.png */; };
+		521AB39711FA279900E327E4 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 521AB39611FA279900E327E4 /* Client.m */; };
+		521AB39B11FA27AD00E327E4 /* Clients.plist in Resources */ = {isa = PBXBuildFile; fileRef = 521AB39A11FA27AD00E327E4 /* Clients.plist */; };
+		521AB3A711FA33EE00E327E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 521AB3A611FA33EE00E327E4 /* Default.png */; };
+		521AB3DC11FA380B00E327E4 /* gogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 521AB3DB11FA380B00E327E4 /* gogo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iLohRUAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLohRUAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iLohRUAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iLohRUAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iLohRU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLohRU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* iLohRUViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iLohRUViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* iLohRUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLohRUViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* iLohRUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iLohRUViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iLohRU_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLohRU_Prefix.pch; sourceTree = "<group>"; };
+		52055D0811F9FF6000A1DA90 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		52055D0911F9FF6000A1DA90 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		52055D0A11F9FF6000A1DA90 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		52055D0B11F9FF6000A1DA90 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		52055D0C11F9FF6000A1DA90 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		52055D0D11F9FF6000A1DA90 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		52055D0E11F9FF6000A1DA90 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		52055D0F11F9FF6000A1DA90 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		52055D1011F9FF6000A1DA90 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		52055D1111F9FF6000A1DA90 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		52055D1211F9FF6000A1DA90 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		52055D1311F9FF6000A1DA90 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		52055D1411F9FF6000A1DA90 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		52055D6E11FA056000A1DA90 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		52055D7011FA056000A1DA90 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		52055D7211FA056000A1DA90 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		52055D7411FA056000A1DA90 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		5209972A11FAEDCC00E85523 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		521AB39511FA279900E327E4 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		521AB39611FA279900E327E4 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		521AB39A11FA27AD00E327E4 /* Clients.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Clients.plist; sourceTree = "<group>"; };
+		521AB3A611FA33EE00E327E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		521AB3DB11FA380B00E327E4 /* gogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gogo.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iLohRU-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iLohRU-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				52055D6F11FA056000A1DA90 /* CFNetwork.framework in Frameworks */,
+				52055D7111FA056000A1DA90 /* MobileCoreServices.framework in Frameworks */,
+				52055D7311FA056000A1DA90 /* SystemConfiguration.framework in Frameworks */,
+				52055D7511FA056000A1DA90 /* libz.1.2.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				521AB39411FA279900E327E4 /* Twitter */,
+				52055CA311F9FEDA00A1DA90 /* External */,
+				1D3623240D0F684500981E51 /* iLohRUAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iLohRUAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* iLohRUViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* iLohRUViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iLohRU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				52055D6E11FA056000A1DA90 /* CFNetwork.framework */,
+				52055D7011FA056000A1DA90 /* MobileCoreServices.framework */,
+				52055D7211FA056000A1DA90 /* SystemConfiguration.framework */,
+				52055D7411FA056000A1DA90 /* libz.1.2.3.dylib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iLohRU_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5209972A11FAEDCC00E85523 /* icon.png */,
+				521AB3DB11FA380B00E327E4 /* gogo.png */,
+				521AB3A611FA33EE00E327E4 /* Default.png */,
+				521AB39A11FA27AD00E327E4 /* Clients.plist */,
+				2899E5210DE3E06400AC0155 /* iLohRUViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* iLohRU-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52055CA311F9FEDA00A1DA90 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				52055D0711F9FF6000A1DA90 /* JSON */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		52055D0711F9FF6000A1DA90 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				52055D0811F9FF6000A1DA90 /* JSON.h */,
+				52055D0911F9FF6000A1DA90 /* NSObject+SBJSON.h */,
+				52055D0A11F9FF6000A1DA90 /* NSObject+SBJSON.m */,
+				52055D0B11F9FF6000A1DA90 /* NSString+SBJSON.h */,
+				52055D0C11F9FF6000A1DA90 /* NSString+SBJSON.m */,
+				52055D0D11F9FF6000A1DA90 /* SBJSON.h */,
+				52055D0E11F9FF6000A1DA90 /* SBJSON.m */,
+				52055D0F11F9FF6000A1DA90 /* SBJsonBase.h */,
+				52055D1011F9FF6000A1DA90 /* SBJsonBase.m */,
+				52055D1111F9FF6000A1DA90 /* SBJsonParser.h */,
+				52055D1211F9FF6000A1DA90 /* SBJsonParser.m */,
+				52055D1311F9FF6000A1DA90 /* SBJsonWriter.h */,
+				52055D1411F9FF6000A1DA90 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		521AB39411FA279900E327E4 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				521AB39511FA279900E327E4 /* Client.h */,
+				521AB39611FA279900E327E4 /* Client.m */,
+			);
+			name = Twitter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iLohRU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iLohRU" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iLohRU;
+			productName = iLohRU;
+			productReference = 1D6058910D05DD3D006BFB54 /* iLohRU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iLohRU" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iLohRU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* iLohRUViewController.xib in Resources */,
+				521AB39B11FA27AD00E327E4 /* Clients.plist in Resources */,
+				521AB3A711FA33EE00E327E4 /* Default.png in Resources */,
+				521AB3DC11FA380B00E327E4 /* gogo.png in Resources */,
+				5209972B11FAEDCC00E85523 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iLohRUAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* iLohRUViewController.m in Sources */,
+				52055D1511F9FF6000A1DA90 /* NSObject+SBJSON.m in Sources */,
+				52055D1611F9FF6000A1DA90 /* NSString+SBJSON.m in Sources */,
+				52055D1711F9FF6000A1DA90 /* SBJSON.m in Sources */,
+				52055D1811F9FF6000A1DA90 /* SBJsonBase.m in Sources */,
+				52055D1911F9FF6000A1DA90 /* SBJsonParser.m in Sources */,
+				52055D1A11F9FF6000A1DA90 /* SBJsonWriter.m in Sources */,
+				521AB39711FA279900E327E4 /* Client.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iLohRU_Prefix.pch;
+				INFOPLIST_FILE = "iLohRU-Info.plist";
+				PRODUCT_NAME = iLohRU;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iLohRU_Prefix.pch;
+				INFOPLIST_FILE = "iLohRU-Info.plist";
+				PRODUCT_NAME = iLohRU;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Xcode Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Xcode Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iLohRU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iLohRU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
